@@ -10,6 +10,17 @@ A streamlined platform for managing YouTube talent contests with automated metri
 - ✅ Subscriber verification system
 - 🎯 Admin dashboard for contest management
 
+## Documentation
+
+Comprehensive documentation is available in the [docs/](./docs/) directory:
+
+- [Technical Documentation](./docs/TECHNICAL_DOCUMENTATION.md) - Detailed technical overview
+- [Project Structure](./docs/PROJECT_STRUCTURE.md) - Codebase organization
+- [API Documentation](./docs/API_DOCUMENTATION.md) - All API endpoints
+- [YouTube API Integration](./docs/YOUTUBE_API_INTEGRATION.md) - YouTube integration details
+- [User Guide](./docs/USER_GUIDE.md) - Guide for contestants and administrators
+- [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md) - Deployment instructions
+
 ## Tech Stack
 
 - **Frontend**: Next.js 14 with TypeScript and Tailwind CSS
@@ -69,10 +80,14 @@ The system implements several strategies to manage YouTube API quotas:
 
 ## Deployment
 
+For quick deployment:
+
 1. Set up a PostgreSQL database
 2. Configure environment variables
 3. Deploy to Vercel/Cloudflare Pages
 4. Set up cron jobs for automated tasks
+
+For detailed deployment instructions, see the [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md).
 
 ## Contributing
 
